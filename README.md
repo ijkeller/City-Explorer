@@ -1,7 +1,7 @@
 # City Explorer
 
 **Author**: Isaiah Keller
-**Version**: 1.0.2
+**Version**: 1.0.3
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
@@ -16,8 +16,12 @@ User can search a location and have the map data displayed.
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+
 Web Request Response Cycle - Day 1
 ![Web Request Response Cycle - 1](src/assets/ce-wrrc-1.png)
+
+Web Request Response Cycle - Day 2
+![Web Request Response Cycle - 2](src/assets/ce-wrrc-2.png)
 
 ## Change Log
 <!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
@@ -25,12 +29,16 @@ Web Request Response Cycle - Day 1
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
 08-22-2022 2:00 pm site initiallized and deployed to netlify.
+08-23-2022 10:30 am app retrieving data from locationIQ and setting to state
+
 
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 - Collaborators:
      - Xavier Hillman
+     - Keelen Fisher
+     - 
 
 
 ## Time Extimates
