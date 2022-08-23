@@ -34,7 +34,7 @@ Web Request Response Cycle - Day 2
 08-22-2022 2:00 pm site initiallized and deployed to netlify.
 08-23-2022 10:30 am app retrieving data from locationIQ and setting to state
 08-23-2022 2:00 pm app retrieving map data and displaying searched location image on page.
-
+08-23-2022 4:15 pm app styled and showing error message
 
 
 ## Credit and Collaborations
@@ -47,48 +47,48 @@ Web Request Response Cycle - Day 2
 
 ## Time Extimates
 
-Name of feature: 
+Name of feature: 1: react repository and api keys
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 1:00pm
 
-Finish time: 
+Finish time: 2:00pm
 
-Actual time needed to complete: 
-
-
-Name of feature: 
-
-Estimate of time needed to complete: 
-
-Start time: 
-
-Finish time: 
-
-Actual time needed to complete: 
+Actual time needed to complete: 1 hour
 
 
-Name of feature: 
+Name of feature: 2: locations
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 2 hours
 
-Start time: 
+Start time: 3:45 pm
 
-Finish time: 
+Finish time: 10:30 am
 
-Actual time needed to complete: 
+Actual time needed to complete: 4 hours
 
 
-Name of feature: 
+Name of feature: 3: Map
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 1 hour
 
-Start time: 
+Start time: 1:00 pm
 
-Finish time: 
+Finish time: 2:00 pm
 
-Actual time needed to complete: 
+Actual time needed to complete: 1 hour
+
+
+Name of feature: 4: Errors
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 3:15 pm
+
+Finish time: 4:15 pm
+
+Actual time needed to complete: 1 hour
 
 
 Name of feature: 
