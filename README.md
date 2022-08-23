@@ -1,7 +1,10 @@
 # City Explorer
 
 **Author**: Isaiah Keller
-**Version**: 1.0.3
+**Version**: 1.0.4
+
+[Deployed Site](https://steady-granita-1e3b50.netlify.app)
+[Github Repo](https://github.com/ijkeller/city-explorer)
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
@@ -30,6 +33,7 @@ Web Request Response Cycle - Day 2
 
 08-22-2022 2:00 pm site initiallized and deployed to netlify.
 08-23-2022 10:30 am app retrieving data from locationIQ and setting to state
+08-23-2022 2:00 pm app retrieving map data and displaying searched location image on page.
 
 
 
