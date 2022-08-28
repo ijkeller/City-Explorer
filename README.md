@@ -1,7 +1,7 @@
 # City Explorer
 
 **Author**: Isaiah Keller
-**Version**: 1.0.4
+**Version**: 1.0.25
 
 [Deployed Site](https://steady-granita-1e3b50.netlify.app)
 [Github Repo](https://github.com/ijkeller/city-explorer)
@@ -92,6 +92,72 @@ Finish time: 4:15 pm
 Actual time needed to complete: 1 hour
 
 
+Name of feature: 5: Server Repository
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 3:00 pm
+
+Finish time: 4:45 pm
+
+Actual time needed to complete: 1 hour 45 min
+
+
+Name of feature: 6: Weather Placeholder
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 5:00 pm
+
+Finish time: 700 pm
+
+Actual time needed to complete: 2 hours
+
+
+Name of feature: 7: Errors
+
+Estimate of time needed to complete: 30 min
+
+Start time: 2:00 pm
+
+Finish time: 2:30 pm
+
+Actual time needed to complete: 30 min - had already started this during other steps
+
+
+Name of feature: 8: Weather Live
+
+Estimate of time needed to complete: 1.5 hours
+
+Start time: 2:30 pm
+
+Finish time: 4:00 pm
+
+Actual time needed to complete: 1.5 hours
+
+
+Name of feature: 9 Movies
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 4:15 pm
+
+Finish time: 5:15 pm
+
+Actual time needed to complete: 1 hour
+
+
+Name of feature: 10: Publish
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 2:00 pm
+
+Finish time: 5:54 pm
+
+Actual time needed to complete: 4 hours
+
+
 Name of feature: 
 
 Estimate of time needed to complete: 
@@ -167,6 +233,30 @@ Start time:
 Finish time: 
 
 Actual time needed to complete: 
+
+
+Name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+
+
+Name of feature: 
+
+Estimate of time needed to complete: 
+
+Start time: 
+
+Finish time: 
+
+Actual time needed to complete: 
+
+
 
 
 
