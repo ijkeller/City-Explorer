@@ -28,11 +28,16 @@ class App extends Component {
   handleGetData = async (e) => {
     e.preventDefault();
     try {
+      let ACTIVE_SERVER =process.env.REACT_APP_DEPLOYED_SERVER;
+      console.log(ACTIVE_SERVER)
       let url = `https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&q=${this.state.text}&format=json`;
       let cityData = await axios.get(url);
       let mapurl = `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&center=${cityData.data[0].lat},${cityData.data[0].lon}&size=${window.innerWidth}x${window.innerHeight}&zoom=14`;
-      let weatherUrl = `http://${process.env.REACT_APP_SERVER}/weather?lat=${cityData.data[0].lat}&lon=${cityData.data[0].lon}`
-      let moviesUrl = `http://${process.env.REACT_APP_SERVER}/movies?search=${this.state.text}`
+      let weatherUrl = `${ACTIVE_SERVER}/weather?lat=${cityData.data[0].lat}&lon=${cityData.data[0].lon}`
+      let moviesUrl = `${ACTIVE_SERVER}/movies?search=${this.state.text}`
+
+      console.log(weatherUrl)
+      console.log(moviesUrl)
 
       let weatherData = await axios.get(weatherUrl)
       let moviesData = await axios.get(moviesUrl)
