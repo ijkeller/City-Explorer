@@ -2,6 +2,8 @@ import React from 'react';
 import Weather from './Weather.js';
 import Movies from './Movies.js';
 import { Container } from 'react-bootstrap';
+import Tab from 'react-bootstrap/Tab';
+import Tabs from 'react-bootstrap/Tabs';
 
 
 class DataContainer extends React.Component {

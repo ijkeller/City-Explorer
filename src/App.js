@@ -31,8 +31,8 @@ class App extends Component {
       let LAB = process.env.REACT_APP_LAB_SERVER;
       let DEPLOYED = process.env.REACT_APP_DEPLOYED_SERVER;
       let ACTIVE_SERVER =
-        LAB
-        // DEPLOYED
+        // LAB
+        DEPLOYED
         ;
 
 
@@ -81,6 +81,7 @@ class App extends Component {
     this.setState({ text: e.target.value })
   }
 
+  
   render() {
     return (
       <div className="App">
@@ -97,10 +98,6 @@ class App extends Component {
               <Image fluid className='map' src={this.state.mapUrl} />
               <div className='displayName' >
                 <h3>{this.state.displayName}</h3>
-                <h3>Lat: {this.state.mapLocation.lat}</h3>
-                <h3>Lon: {this.state.mapLocation.lon}</h3>
-                <p>Movie: {this.state.moviesData[0].title} </p>
-                <p>Forecast: {this.state.weatherData[0].description} </p>
               </div>
               <DataContainer className='container'
                 weatherData={this.state.weatherData}
