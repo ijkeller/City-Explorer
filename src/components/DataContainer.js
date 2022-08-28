@@ -20,6 +20,7 @@ class DataContainer extends React.Component {
                 {
                     weatherData.map(dayForecast => {
                         return <Weather
+                            key={dayForecast.date}
                             date={dayForecast.date}
                             icon={dayForecast.icon}
                             description={dayForecast.description}

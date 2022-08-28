@@ -28,7 +28,7 @@ class App extends Component {
   handleGetData = async (e) => {
     e.preventDefault();
     try {
-      let ACTIVE_SERVER =process.env.REACT_APP_DEPLOYED_SERVER;
+      let ACTIVE_SERVER = process.env.REACT_APP_LAB_SERVER;
       console.log(ACTIVE_SERVER)
       let url = `https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&q=${this.state.text}&format=json`;
       let cityData = await axios.get(url);
