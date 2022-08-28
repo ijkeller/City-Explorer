@@ -28,14 +28,26 @@ class App extends Component {
   handleGetData = async (e) => {
     e.preventDefault();
     try {
-      let ACTIVE_SERVER = process.env.REACT_APP_LAB_SERVER;
-      console.log(ACTIVE_SERVER)
+      let LAB = process.env.REACT_APP_LAB_SERVER;
+      let DEPLOYED = process.env.REACT_APP_DEPLOYED_SERVER;
+      let ACTIVE_SERVER =
+        // LAB
+        DEPLOYED
+        ;
+
+
       let url = `https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&q=${this.state.text}&format=json`;
       let cityData = await axios.get(url);
       let mapurl = `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&center=${cityData.data[0].lat},${cityData.data[0].lon}&size=${window.innerWidth}x${window.innerHeight}&zoom=14`;
       let weatherUrl = `${ACTIVE_SERVER}/weather?lat=${cityData.data[0].lat}&lon=${cityData.data[0].lon}`
       let moviesUrl = `${ACTIVE_SERVER}/movies?search=${this.state.text}`
 
+      let servers = {
+        lab: LAB,
+        deployed: DEPLOYED,
+        active: ACTIVE_SERVER,
+      }
+      console.table(servers)
       console.log(weatherUrl)
       console.log(moviesUrl)
 
@@ -91,8 +103,8 @@ class App extends Component {
                 <p>Forecast: {this.state.weatherData[0].description} </p>
               </div>
               <DataContainer className='container'
-              weatherData={this.state.weatherData}
-              moviesData={this.state.moviesData} />
+                weatherData={this.state.weatherData}
+                moviesData={this.state.moviesData} />
               <div>
                 <ul> {this.state.weatherData[0].date} </ul>
               </div>
