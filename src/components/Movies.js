@@ -6,7 +6,7 @@ class Movies extends React.Component {
         return (
             <>
                 <h3>{this.props.title}</h3>
-                <img src={this.props.poster} />
+                <img src={this.props.poster} alt={`${this.props.title} movie poster`} />
                 <p>{this.props.release_date}</p>
             </>
         )
