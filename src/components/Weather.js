@@ -8,9 +8,9 @@ class Weather extends React.Component {
                 <p>{this.props.date}</p>
                 <img src={this.props.icon} alt={`${this.props.description} weather icon`} />
                 <p>{this.props.description}</p>
-                <p>{this.props.high_temp}</p>
-                <p>{this.props.low_temp}</p>
-                <p>{this.props.precip}</p>
+                <p>High: {this.props.high_temp}</p>
+                <p>Low: {this.props.low_temp}</p>
+                <p>💧: {this.props.precip}</p>
             </>
         )
     }

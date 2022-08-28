@@ -31,8 +31,8 @@ class App extends Component {
       let LAB = process.env.REACT_APP_LAB_SERVER;
       let DEPLOYED = process.env.REACT_APP_DEPLOYED_SERVER;
       let ACTIVE_SERVER =
-        // LAB
-        DEPLOYED
+        LAB
+        // DEPLOYED
         ;
 
 
